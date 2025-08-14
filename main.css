@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #fff;
+  line-height: 1.7;
+  padding: 0 20px;
+}
+h1 {
+  text-align: center;
+}
+details {
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+code,
+pre {
+  background-color: #f6f6f6;
+  display: block;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  color: #cc0000;
+  font-family: monospace;
+  overflow-x: auto;
+}
+img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #eee;
+  color: #333;
+  border: none;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+  z-index: 10;
+}
+
+.copy-button:hover {
+  background: #ccc;
+}
+
+.code-container {
+  position: relative;
+}
+@media (max-width: 600px) {
+  .copy-button {
+    top: 4px;
+    right: 4px;
+    padding: 3px 6px;
+    font-size: 11px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  details {
+    padding: 10px;
+  }
+}
+.note-container {
+  display: flex;
+}
+.headIcon {
+  color: #901b20;
+}
+
+/* pre {
+  white-space: pre-wrap; /* أو استخدم pre-line لو تحب */
+/*  word-wrap: break-word;
+  
+}
+ */
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
+  /* width: 100%;
+  bottom: 0; */
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* دعم الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .note-container {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+  main {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .note-container {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+  main {
+    margin: 2px;
+  }
+}

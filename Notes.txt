@@ -1,0 +1,6 @@
+escape.html#before-output
+
+موقع استخدمته في عمل غورمات لكود
+ HTML
+ علشان يظهر ككود في الصفحة
+https://www.freeformatter.com/html-escape.html#before-output
