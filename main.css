@@ -115,13 +115,6 @@ footer {
   bottom: 0; */
 }
 
-@media (max-width: 480px) {
-  footer {
-    font-size: 12px;
-    padding: 8px;
-  }
-}
-
 /* دعم الشاشات الصغيرة */
 @media (max-width: 768px) {
   .note-container {
@@ -135,10 +128,14 @@ footer {
 
 @media (max-width: 480px) {
   .note-container {
-    padding: 6px;
-    font-size: 0.8rem;
+    padding: 6px !important;
+    font-size: 0.95rem !important;
   }
   main {
-    margin: 2px;
+    margin: 2px !important;
+  }
+    footer {
+    font-size: 12px !important;
+    padding: 8px !important;
   }
 }
